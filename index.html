@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 
@@ -345,4 +346,353 @@
   <script src="script.js"></script>
 </body>
 
+=======
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rubi - Portfolio</title>
+
+  <!-- Fonts and Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="cursor-glow"></div>
+  <div class="particles" id="particles"></div>
+  <div class="glow-effect"></div>
+  <div class="background-spots"></div>
+  <div class="background-spots-light"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">&lt; Rubi &gt;</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-right">
+        <button class="theme-toggle" id="themeToggle">
+          <i class="fas fa-moon"></i>
+        </button>
+
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section class="container section-home" id="home">
+    <h1 class="welcome-text">
+      <span class="text-letter">W</span>
+      <span class="text-letter">e</span>
+      <span class="text-letter">l</span>
+      <span class="text-letter">c</span>
+      <span class="text-letter">o</span>
+      <span class="text-letter">m</span>
+      <span class="text-letter">e</span>
+      <span class="space"></span>
+      <span class="text-letter">t</span>
+      <span class="text-letter">o</span>
+      <span class="space"></span>
+      <span class="text-letter">m</span>
+      <span class="text-letter">y</span>
+      <span class="space"></span>
+      <span class="text-letter">P</span>
+      <span class="text-letter">o</span>
+      <span class="text-letter">r</span>
+      <span class="text-letter">t</span>
+      <span class="text-letter">f</span>
+      <span class="text-letter">o</span>
+      <span class="text-letter">l</span>
+      <span class="text-letter">i</span>
+      <span class="text-letter">o</span>
+    </h1>
+   
+    <a href="#about" class="cta-button">Know Me More</a>
+    <div class="about-section">
+      <div class="about-text">
+        <p>I am a passionate and dedicated web developer with experience in creating modern, responsive applications. I believe in continuous learning and building cutting-edge solutions that make a difference.</p>
+      </div>
+    </div>
+    
+    <div class="section-divider"></div>
+  </section>
+
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- About Section -->
+  <section class="hero section-dark" id="about">
+    <div class="section-header">
+      <h2 class="section-title">About Me</h2>
+      <div class="section-subtitle">Get to know me better</div>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-left">
+        <div class="profile-photo">
+          <img src="images/Profile.jpg" alt="Profile">
+        </div>
+        <h1 class="hero-title">Hi, I'm <span class="name">Rubi</span></h1>
+        <p class="hero-subtitle">A dedicated web developer passionate about crafting seamless user experiences.</p>
+        <div class="typewriter" id="typewriter"></div>
+        <a href="#projects" class="cta-button">View Projects</a>
+      </div>
+
+      <div class="hero-right">
+        <div class="skill-cards">
+          <div class="skill-card"><i class="fab fa-html5"></i><span>HTML</span></div>
+          <div class="skill-card"><i class="fab fa-js-square"></i><span>JavaScript</span></div>
+          <div class="skill-card"><i class="fas fa-palette"></i><span>UI Design</span></div>
+          <div class="skill-card"><i class="fab fa-css3-alt"></i><span>CSS</span></div>
+        </div>
+        <div class="social-links">
+          <a href="https://github.com/rubi-dev" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/rubi-rubi-7187ba348" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="mailto:rubi1881281@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+          <a href="https://www.fiverr.com/rubithecoder" class="social-link" target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/fiverr-1.svg" alt="Fiverr" style="height: 24px;"></a>
+        </div>
+      </div>
+    </div>
+    <div class="section-divider"></div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills-section section-light" id="skills">
+  <div class="section-header">
+    <h2 class="section-title">Skills & Expertise</h2>
+    <div class="section-subtitle">My current frontend toolkit</div>
+  </div>
+
+  <div class="skills-container">
+    <div class="skill-category">
+      <h3>Core Frontend</h3>
+      <div class="skill-items">
+        <div class="skill-item" data-skill="65">
+          <div class="skill-info">
+            <span>HTML5</span>
+            <span class="skill-percentage">65%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 65%"></div>
+          </div>
+        </div>
+        <div class="skill-item" data-skill="76">
+          <div class="skill-info">
+            <span>CSS3</span>
+            <span class="skill-percentage">76%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 76%"></div>
+          </div>
+        </div>
+        <div class="skill-item" data-skill="80">
+          <div class="skill-info">
+            <span>JavaScript</span>
+            <span class="skill-percentage">80%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 80%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="skill-category">
+      <h3>Tools</h3>
+      <div class="skill-items">
+        <div class="skill-item" data-skill="80">
+          <div class="skill-info">
+            <span>VS Code</span>
+            <span class="skill-percentage">80%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 80%"></div>
+          </div>
+        </div>
+        <div class="skill-item" data-skill="50">
+          <div class="skill-info">
+            <span>Git & GitHub</span>
+            <span class="skill-percentage">50%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 50%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section-divider"></div>
+</section>
+
+
+  <!-- Projects Section -->
+  <section class="text-section section-soft" id="projects">
+    <div class="section-header">
+      <div class="projects-label">Projects</div>
+      <h1 class="main-heading">Collections</h1>
+      <p class="description">
+        Each project here is a crafted collection — from planning to deployment — capturing real-world challenges and creative problem solving.
+      </p>
+      <a href="#projects" class="explore-button">Explore All Work</a>
+      <p class="sub-description">
+        From smart planners to interactive dashboards — these aren't just projects, they're real simulations of what I can build for businesses and users alike.
+      </p>
+    </div>
+    
+    <div class="projects-grid">
+      <div class="project-card" onclick="openProject('https://rubi-dev.github.io/BackBookLab/')">
+        <img src="images/BBL.png" alt="BackBookLab" class="project-image">
+        
+        <div class="play-icon"></div>
+        <div class="project-overlay">
+          <div class="project-info">
+            <div class="project-label">BackBookLab</div>
+            <div class="tech-stack">
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">CSS3</span>
+              <span class="tech-tag">JavaScript</span>
+            </div>
+            <p class="project-description">Rent books online with ease — affordable, flexible, and student-friendly.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="project-card" onclick='openProject(" https://rubi-dev.github.io/Ration-Price-Checker/")'>
+        <img src="images/rationPriceChecker.png" alt="rationPriceChecker" class="project-image">
+        
+        <div class="play-icon"></div>
+        <div class="project-overlay">
+          <div class="project-info">
+            <div class="project-label">rationPriceChecker</div>
+            <div class="tech-stack">
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">CSS3</span>
+              <span class="tech-tag">JavaScript</span>
+            </div>
+            <p class="project-description">Track govt ration prices and ensure PDS transparency with this simple checker tool..</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="project-card" onclick="window.openProject(' https://rubi-dev.github.io/TypingTracker/')">
+        <img src="images/TypingTrackr.png" alt="TypingTrackr" class="project-image">
+      
+        <div class="play-icon"></div>
+        <div class="project-overlay">
+          <div class="project-info">
+            <div class="project-label">TypingTrackr</div>
+            <div class="tech-stack">
+              <span class="tech-tag">HTML5</span>
+             <span class="tech-tag">CSS3</span>
+              <span class="tech-tag">JavaScript</span>
+            </div>
+            <p class="project-description">Full-featured e-commerce platform with payment integration.</p>
+          </div>
+        </div>
+      </div>
+      
+
+  <div class="section-divider"></div>
+</section>
+
+
+  <!-- Contact Section -->
+  <section class="contact-container section-light" id="contact">
+    <div class="section-header">
+      <div class="contact-label">Get In Touch</div>
+      <h1 class="main-title">Let's Create Something Amazing Together</h1>
+      <p class="subtitle">Ready to bring your ideas to life? I'm here to help you build exceptional digital experiences that make a real impact.</p>
+    </div>
+
+    <div class="contact-content">
+      <div class="contact-info">
+        <div class="contact-methods">
+          <div class="contact-method" onclick="openEmail()">
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+            <div class="contact-details">
+              <h3>Email Me</h3>
+              <p><a href="mailto:rubi1881281@gmail.com">rubi1881281@gmail.com</a></p>
+            </div>
+          </div>
+
+          <div class="contact-method" onclick="openLocation()">
+            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div class="contact-details">
+              <h3>Location</h3>
+              <p>Delhi, India</p>
+            </div>
+          </div>
+
+          <div class="contact-method" onclick="openLinkedIn()">
+            <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
+            <div class="contact-details">
+              <h3>LinkedIn</h3>
+              <p>Connect with me professionally</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <div id="successMessage" class="success-message">✅ Message sent successfully! I'll get back to you soon.</div>
+        <h2 class="form-title">Send Me a Message</h2>
+        <form id="contactForm">
+          <div class="form-group">
+            <input type="text" id="name" class="form-input" placeholder=" " required>
+            <label for="name" class="form-label">Your Name</label>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" class="form-input" placeholder=" " required>
+            <label for="email" class="form-label">Email Address</label>
+          </div>
+          <div class="form-group">
+            <input type="text" id="subject" class="form-input" placeholder=" " required>
+            <label for="subject" class="form-label">Subject</label>
+          </div>
+          <div class="form-group">
+            <textarea id="message" class="form-textarea" placeholder=" " required></textarea>
+            <label for="message" class="form-label">Your Message</label>
+          </div>
+          <button type="submit" class="submit-button">Send Message 🚀</button>
+        </form>
+
+        <div class="social-links">
+          <a href="https://github.com/rubi-dev" target="_blank" class="social-link" aria-label="GitHub">
+            <i class="fab fa-github fa-2x"></i>
+          </a>
+          <a href="https://linkedin.com/in/rubi-rubi-7187ba348" target="_blank" class="social-link" aria-label="LinkedIn">
+            <i class="fab fa-linkedin fa-2x"></i>
+          </a>
+          <a href="mailto:rubi1881281@gmail.com" class="social-link" aria-label="Email">
+            <i class="fas fa-envelope fa-2x"></i>
+          </a>
+          <a href="https://www.fiverr.com/rubithecoder" target="_blank" rel="noopener" class="social-link" aria-label="Fiverr">
+            <img src="https://cdn.worldvectorlogo.com/logos/fiverr-1.svg" alt="Fiverr Logo" style="height: 24px;">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+>>>>>>> 0f3008c2ccfcb04c48d230503a1f676b0949f5bb
 </html>
